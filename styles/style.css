@@ -1,1 +1,43 @@
 /* Styles for etch-a-sketch */
+html {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#banner {
+    display: flex;
+    height: 50px;
+}
+
+div {
+    color: white;
+}
+
+#canvas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid white 1px;
+    width: 600px;
+    height: 600px;
+}
+
+.pixel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 150px;
+    height: 150px;
+}
